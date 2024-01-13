@@ -1,0 +1,134 @@
+.nd-acdemic-numlist {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nd-acdemic-numlist__item {
+  margin-top: 1.5rem;
+}
+
+.nd-academic-number {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .nd-academic-number {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.nd-academic-number-des {
+  color: #535353;
+  font-weight: #535353;
+}
+
+@media screen and (max-width: 767px) {
+  .nd-academic-number-des {
+    font-size: 12px;
+    line-height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nd-blockquote {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/** Gallery **/
+
+.nd-gallery__group {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .nd-gallery__group {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nd-gallery__group .nd-patch__txt {
+    font-size: 12px;
+    line-height: 140%;
+  }
+}
+
+.nd-gallery__card {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.nd-patch--full {
+  width: 100%;
+  border-radius: 0;
+  padding: 1rem 0.2rem;
+  border-radius: 0px 0px 8px 8px;
+}
+
+/** Tabs **/
+
+@media screen and (max-width: 767px) {
+  .nd-navtabs {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nd-tabcontent .nd-img-fluid {
+    width: 100%;
+  }
+  .nd-team-member__heading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.nd-navtabs .nav-link {
+  /* border: none; */
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+  font-weight: 700;
+  color: #737373;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .nd-navtabs .nav-link {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+}
+
+.nd-navtabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  /* transform: scaleX(0); */
+  /* transform-origin: left; */
+  transition: all 600ms ease 0s;
+  background: #011967;
+  border-radius: 4px;
+}
+
+.nd-navtabs .nav-link.active {
+  background: transparent;
+  border: none;
+  color: #011967;
+}
+
+.nd-navtabs .nav-link.active::after {
+  width: 100%;
+  /* transform: scaleX(1); */
+}

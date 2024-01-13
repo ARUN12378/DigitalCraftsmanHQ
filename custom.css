@@ -1,0 +1,89 @@
+/** banner **/
+
+.nd-banner {
+    display: flex;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  @media screen and (max-width: 767px) {
+    .nd-banner {
+      align-items: flex-end;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .nd-banner {
+      align-items: center;
+      padding-top: 8.5rem;
+      padding-bottom: 4.5rem;
+    }
+  }
+  
+  .nd-banner-aboutus {
+    background: url("../images/about-us/about-banner.webp") no-repeat;
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nd-banner-aboutus {
+      height: 500px;
+      background-position: 20%;
+    }
+  }
+  
+  /** mission **/
+  .nd-our-mission {
+    padding: 3rem 0;
+  }
+  @media screen and (min-width: 768px) {
+    .nd-our-mission {
+      padding: 5rem 0 0 0;
+    }
+  }
+  
+  .nd-thumbnail {
+    padding: 2rem 1.2rem;
+    border-radius: 8px;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nd-thumbnail {
+      margin-top: 1.5rem;
+    }
+    .nd-thumbnail__heading {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .nd-thumbnail {
+      padding: 2.4rem 1.5rem;
+      height: 100%;
+    }
+  }
+  
+  .nd-thumbnail__fig {
+    padding: 0.6rem 0.6rem;
+    border-radius: 8px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nd-thumbnail__fig {
+      padding: 1rem 1.2rem;
+    }
+  }
+  
+  .nd-thumbnail__des {
+    color: #3d3a3a;
+  }
+  
+  /** nd-awards **/
+  .nd-award-card {
+    background: #ffffff;
+  }
+  
+  .nd-thumbnial-card__fig {
+    position: relative;
+  }
+  

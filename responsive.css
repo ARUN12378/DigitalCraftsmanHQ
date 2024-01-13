@@ -1,0 +1,600 @@
+@media (device-width:1024px){
+    .row-images{width: 100%;}
+    .facilities_top{align-items: center;}
+    .news_img{height: 340px;}
+
+    /* home */
+    .deadline{display: none;}
+    .deadlines{display: none;}
+    .latest_section {padding: 0 65px;}
+    /* home */
+    /* photo_sipe */
+    .photo_sipe_gallery .pswp__item {left: 4%;top: 3%;}
+    .photo_sipe_gallery .pswp__img {top: -19%;left: -6%;}
+    .photo_sipe_gallery .photo_sipe_left {left: 6%;}
+    .photo_sipe_gallery .photo_sipe_right{right: 8%;}
+    .photo_sipe_gallery .photo_close_btn {top: 5px;right: 41px;}
+   /* photo_sipe */
+}
+
+
+@media only screen and (max-width: 991px) {
+    /* header */
+    .sub_header .admission_one{display: none;}
+    .sub_header .admission_two{display: none;}
+    .sub_header {padding: 10px;}
+    .school_logo{width: 67px;height: 40px;}
+    .header .navbar-expand-lg .navbar-nav .nav-link {padding: 0;font-weight: 500;font-size: 18px;}
+    .header .navbar-light .navbar-toggler { border: none !important;}
+    .header_section .navbar{padding: 3px 15px;}
+    .header_section .navbar-expand-lg .navbar-collapse{transition: right ease-in-out 0.5s;background: #203165;width: 100%;position: fixed;right: -100%;top: 0;height: 100vh;overflow-x: auto;z-index: 1000;}
+    .header_section .navbar-expand-lg .navbar-collapse.show{right: 0;}
+    .menu_logo{justify-content: space-between;padding: 32px 20px;}
+    .header_section .navbar-expand-lg .navbar-nav .nav-item{padding: 24px 20px;}
+    .header_section .navbar-expand-lg .navbar-nav .nav-link{padding: 0px;color: #FFFFFF;text-decoration: none !important;}
+    .header_section .navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link{padding-top: 0;}
+    .header_section .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link{padding-bottom: 0;}
+    .header_section .dropdown-menu{background-color: transparent;margin-top: 24px;top: 0;position: relative;}
+    .header_section .dropdown-item{font-weight: 400;font-size: 16px;line-height: 20px;color: #CCCCCC;padding: 8px 20px 8px 25px;}
+    .header_section .navbar-nav .nav-link:hover{font-weight: 500;background-color: transparent;}
+    .header_section .dropdown-item:focus, .dropdown-item:hover{background-color: transparent;}
+    .header_section .navbar-nav .dropdown-menu:after{content: '';position: absolute;left: 6px;top: 0;border-left: 1.5px solid #FFFFFF;height: 100%;}
+    .header_section .navbar-nav .dropdown-menu .dropdown-item:first-child{padding-top: 0;}
+    .header_section .navbar-nav .dropdown-menu .dropdown-item:last-child{padding-bottom: 0;}
+    /* header */
+    
+}
+
+@media only screen and (min-width: 991px) {
+    .mobileLogo{display: none;}
+   
+}
+
+/* @media only screen and (min-width: 768px) {
+    .{
+        max-width: 720px ;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .button_video {
+        width: 30px;
+        height: 30px;
+    }
+
+    .board-container{
+        padding: 48px 0px 96px 20px !important;
+    }
+    .latest_section a{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .student_activities {
+        padding-bottom: 48px;
+      }
+      .nd-bg-orange{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .NDRKAlumni_sec .blue-btn:hover{
+        background: #1f3066;
+        max-width: fit-content;
+        width: 100%;
+        color: white;
+    } 
+    .nd-navtabs .nav-link {margin-left: 0;}
+    /* photo_swipe */
+    .photo_sipe_gallery .pswp__item {width: 683px;height: 519px;left: 7%;}
+    .photo_sipe_gallery .pswp__img {top: -21%; left: 14%;width: 500px !important;height: 400px !important;}
+    .photo_sipe_gallery .photo_sipe_left {left: 11%;top: 42%;}
+    .photo_sipe_gallery .photo_sipe_right {right: 6%;}
+    .photo_sipe_gallery .photo_close_btn{right: 15px;}
+    /* home */
+     .deadline{display: none;}
+     .deadlines{display: none;}
+     .getin_section .get_touch{display: none;}
+     .latest_section {padding: 0 65px;}
+     .getin_section h3{display: none;}
+     .header_section .user_image{display: none;}
+     .login_text{display: block;}
+     .sticky_section .modal-content {padding: 34px 14px;}
+      /* home */
+     /* footer */
+     .quick_text h4{font-size: 16px;}
+     .footer .quick_text p {font-size: 14px;padding-top: 16px;line-height: 18px;}
+     .footer .apply_btn{    font-size: 13px;padding: 2px 6px;margin-left: 15px;}
+     .footer .mobile_text h6{font-size: 14px;}
+     .footer .office_text h6{font-size: 14px;line-height: 18px;}
+     .footer .mobile_text h6{font-size: 14px;line-height: 18px;margin-left: 8px;}
+     .footer .phone_image{width: 11px;}
+     .footer {margin-top: 48px;margin-bottom: 48px;}
+     /* footer */
+     /* facilities */
+     .padding_top_sec{padding-top: 48px;}
+     .pading_bot_sec{padding-bottom: 48px;}
+     .facilities_1_section .banner-h1{font-size: 24px; padding-bottom: 24px;}
+     .facilities_1_section .banner-head{font-size: 24px; line-height: 32px;}
+     .facilities_1_section  .banner-p{line-height: 22px; font-size: 14px;}
+     .facilities_1_section .banner-p br{display: none;}
+     .facilities.row-images{width:100%; height:auto;}
+     .facilities .row-h4{margin-bottom: 24px;}
+     .facilities .facilities_top{padding-top: 48px;}
+     .facilities .row-h4{font-size: 18px;}
+     .facilities .row-p{font-size: 12px; line-height: 18px; padding-top: 24px;}
+    /* facilities */
+    /* life at NDRK */
+    .activities_images{width: 100% !important;}
+    .virtual_section .virtual-h1{font-size: 24px; line-height: 32px; padding-top: 47px;}
+    .virtual_section .virtual-para{font-size: 14px; line-height: 20px; margin-top: 8px; margin-bottom: 16px;}
+    .virtual_section .virtual_sec{padding-bottom: 47px;}
+    .virtual_section .banner_virtual{background-size: 360px 160px;height: 150px; border-radius: 3px;}
+    .virtual_section .button_video{width: 48px; height: 48px;}
+    .gallery_sec_1 .gallery_images{padding-top: 20px;}
+    .gallery_sec_1 .view_gallery{width: 95%;height: 50px; margin: auto; border-radius: 0;}
+    .gallery_sec_1 .gallery_head{padding-top: 24px !important; line-height: 32px;}
+    .gallery_sec_1 .gallery_para{font-size: 14px; line-height: 20px; color: #737373;}
+    .gallery_sec_1 .gallery_para br{ display: none;}
+    .gallery_sec_1  .gallery_section{padding-bottom: 40px;}
+    .student_activities_1 .student_activities{padding-top: 48px;}
+    .student_activities_1 .activities{font-size: 24px; line-height: 32px; padding-bottom: 24px;}
+    .student_activities_1 .row-heading{font-size: 18px; padding-bottom: 24px;}
+    .student_activities_1 .row-para{padding-top: 24px; font-size: 12px; line-height: 18px; padding-bottom: 24px;}
+    .brd-rad{top: 40%; left: 45%;} 
+    /* life at NDRK */
+
+    /*Alumni in news start*/
+    .alumni_sec .alumni_banner{ padding-top: 53px;}
+    .alumni_sec .news_img{border-top-left-radius: 7.0137px; border-top-right-radius: 7.0137px; width: 100% !important;}
+    .alumni_sec .head_alumni{font-size: 24px; line-height: 32px; margin-left: 0; margin-right: 0; padding-bottom: 24px; padding-top: 60px; padding-left: 0;}
+    .alumni_sec .alumni_news{ margin-right: 0 !important; margin-left: 0 !important;  padding-left: 0; margin-bottom: 24px; border-radius: 0px 8px 8px 8px;}
+    .alumni_sec .date_1{display: inline-block; text-transform: none; font-size: 12px;  padding-top: 0;padding-left: 15px;}
+    .alumni_sec .none-in-mob{display: inline-block;}
+    .alumni_sec .news_head br{ display: none;}
+    .alumni_sec .news_head{ padding-top: 15px; font-size: 18px; line-height: 25px; color: #1F3066; padding-left: 15px;}
+    .alumni_sec .news_para{font-size: 12px; line-height: 18px; padding-left: 15px;}
+    .alumni_sec .hori_line{ border: 1px solid #BFBFBF; height: 0; margin-left: 15px;}
+    .alumni_sec .slick-prev{left:30%}
+    .alumni_sec .slick-next{right:30%}
+    /* Alumni in news end*/
+
+    /* Blogdetails Start */
+    .img_sec{display: flex; flex-direction: row;}
+    .blog-details-section .blog_details{padding-top: 48px;}
+    .blog-details-section .blogdetails_head{font-size: 24px; line-height: 32px; color: #101010;}
+    .blog-details-section .blogdetails_head br{display: none;}
+    .blog-details-section .details-content{font-size: 14px; line-height: 22px; }
+    .blog-details-section .sub_heading{font-size: 20px; color: #101010; padding-bottom: 16px;}
+    .blog-details-section .name{font-size: 16px; color: #1F3066; padding-left: 16px; padding-top: 0;}
+    .blog-details-section  .details-date{font-size: 14px; color: #1F3066; padding-left: 16px;padding-top: 6px;}
+    .blog-details-section .card_body_sec{ background-color: #FFFFFF; padding-bottom: 24px !important; padding: 0;}
+    .blog-details-section .blogdetails-img{width: auto;}
+    .blog-details-section .media_icons{padding-left: 16px; padding-top: 10px;}
+    .otherstudents-section .card-title{font-size: 16px; line-height: 26px; color: #101010; }
+    .otherstudents-section .slick-next{right: 11px;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .otherstudents-section .slick-prev {left: 74%;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .otherstudents-section .card_pen{height: 100%;}
+    .otherstudents-section .card_calender{height: 100%;}
+    .otherstudents-section .otherblog-heading{font-size: 24px; padding-bottom: 19px;}
+    .img-blog-fluid img{width: 15px;}
+    .otherstudents-section .card_calender{padding-top: 10px;}
+    .otherstudents-section .other-date{padding-top: 10px;}
+    /* Blogdetails End */
+
+    /* Blogs Start */
+    .section-blogs .card-title{font-size: 16px; line-height: 26px; color: #101010; }
+    .section-blogs .blogs-heading{font-size: 24px; padding-bottom: 25px;}
+    .section-blogs .student-blog-1{padding-top: 48px;}
+    .section-blogs .card_calender{padding-left: 0;}
+    .section-blogs .other-date{padding-top: 10px;}
+    /* Blogs End */
+
+    /* Admissions Start */
+    .admissions-section .admission-banner{background: url("../images/Admissions/Admi-resp-banner.webp"); margin-top: 10px; background-size: 100% 100%;}
+    .admissions-section .banner-para br{display: none;}
+    .admissions-section .banner-heading{font-size: 24px; color: #FFFFFF; font-weight: 700; padding-bottom: 24px;}
+    .admissions-section .banner-para{font-size: 14px; padding-right: 15px;}
+    .admissions-section .ndrk-trust{padding-top: 48px;}
+    .admissions-section .ndrktrust-head{padding-top: 16px;padding-bottom: 6px;font-size: 18px;}
+    .admissions-section .ndrhtrust-para{font-size: 14px; line-height: 20px; color: #737373; padding-bottom: 48px;}
+    .admissions-section .ndrktrust-img{width: 200px; height: 200px;}
+    .admissions-section .application-head1{font-size: 24px; font-weight: 700; padding-top: 24px; padding-bottom: 24px;}
+    .admissions-section .application-para{font-size: 14px;padding-bottom: 24px;}
+    .admissions-section .application-para1{font-size: 14px;padding-bottom: 24px; line-height: 26px;}
+    .admissions-section .application-head2{font-size: 18px; line-height: 28px;}
+    .admissions-section .none-in-Desk{display: inline-block;}
+    .admi-application-image{ display: none;}
+    .admissions-section .admi-application-image {padding-top: 0px; padding-bottom: 24px; width: 100%;}
+    .admissions-section .eligibility-sec{padding-top: 48px;}
+    .admissions-section .eligibility-head{font-size: 24px; line-height: 32px; color: #101010; padding-bottom: 16px;}
+    .admissions-section .eligibility-para{font-size: 14px; line-height: 22px; color: #737373;}
+    .admissions-section .eligibility-para br{display: none;}
+    .admissions-section .yellow-btn{width: 100%; text-align: center; margin-bottom: 24px;}  
+    /* Admissions End */
+
+    /* Faq Start */
+    .mr-auto-sec{margin-right: 0 !important;}
+    .faqs-tab{padding-left: 0px !important;}
+    .nav-tabs .nav-link{font-size: 12px;}
+    .nav-tabs .nav-link:hover{font-size: 12px;}
+    .nav-tabs .nav-link.active{font-size: 12px;}
+    .nav-tabs{flex-wrap: nowrap !important;}
+    .nav-tabs .nav-link.active{border-bottom: 3px solid #1F3066 !important;}
+    button.btn.btn-link.btn-block.text-left{font-size: 14px;}
+    .faqs-section .faqs_head{font-size: 18px; color: #000000; line-height: 140%; padding-top: 48px;padding-bottom: 6px;}
+    .faqs-section .faqs_para{font-size: 14px; line-height: 20px; color: #737373; padding-bottom: 10px;}
+    .faq-btn .nav-link{padding: 10px 11px !important;}
+    .btn-resp{width: 250px; margin: auto;}
+    .btn-resp{cursor: pointer; font-weight: 700;font-size: 16px;line-height: 26px;padding: 12px 32px;border: 1px solid #1F3066;border-radius: 6px;background: #FCE8B5;color: #1F3066 !important;}
+    .blue-btn-resp-faq{height: 50px;cursor: pointer;background-color: #1F3066;font-size: 16px;line-height: 26px;color: #fff;padding: 12px 32px;border-radius: 6px;display: inline-block;font-weight: 700;position: relative;margin: auto;width: 250px;}
+    .faq_foot_adm{font-size: 24px;font-weight: 500;line-height: 34px;color:#373737;}
+    .faq_foot_adm span{font-size: 24px;font-weight: 700;line-height: 34px;color:#101010;}
+/* Faq End */
+
+
+/* NDRK Alumni start */
+    .cards_section{ flex-direction: column;}
+    .leader-cards-alu .card {margin-top: 24px;}
+    .NDRKAlumni_sec .slick-prev{top: 114%;left: 80%;}
+    .NDRKAlumni_sec .slick-next{top: 114%; right: 8px;}
+    .loca-icon,.card_pen,.card_calender{ width: 13px;}
+    .NDRKAlumni_sec .Ndrkalumni-head{font-size: 24px; line-height: 24px;padding-bottom: 24px;}
+    .NDRKAlumni_sec .Ndrkalumni-p{font-size: 14px; line-height: 16px;}
+    .NDRKAlumni_sec .Ndrkalumni-p br{display: none;}
+    .NDRKAlumni_sec .Alumni_banner {height: 312px;margin-bottom: 48px; width: 372px; background-size: 100% 100%;}
+    .NDRKAlumni_sec .news-text {font-size: 16px;line-height: 24px;}
+    .NDRKAlumni_sec .news_sech3 {font-size: 24px;line-height: 32px;padding-bottom: 23px;padding-left: 15px;}
+    /* .card-body{padding: 21px 16px !important; } */
+    .NDRKAlumni_sec .events_head {font-size: 24px;line-height: 32px;padding-bottom: 24px;}
+    .NDRKAlumni_sec .alumni_events { padding-top: 48px;padding-bottom: 100px;}
+    .NDRKAlumni_sec .card-eventhead {font-size: 16px;line-height: 24px;padding-bottom: 8px;}
+    p.card-text,.card-date,.NDRKAlumni_sec .location-head{font-size: 12px; line-height: 12px;}
+   .NDRKAlumni_sec .Alumni_banner{width: 100%;}
+   .latest_heading-alumi{font-size: 24px; line-height: 40px; color: #101010;font-weight: 700; }
+   .testi-calender{width: auto !important;; padding-right: 7px;}
+    .testi-img{width: 40px; height: 40px;}
+   .check_textname{font-size: 16px; color: #1F3066; line-height: 20px;font-weight: 700;}
+    .student-info{color: #737373; font-size: 11px; line-height: 16px; font-weight: 400;}
+   .student-text{font-size: 12px; line-height: 20px; font-weight: 400;color: #0B3533; padding-top: 16px;padding-bottom: 16px;}
+   .latest_section-alumi .latest_card{padding: 22px 14px;}
+   .latest_section-alumi .latest_card{height: 350px !important; width: 240px;}
+   .latest_section-alumi .slick-next { background: #fff;position: absolute;background-repeat: no-repeat;height: 48px;width: 48px;background-image: url(../images/rightarrow.svg);z-index: 1;background-position: center;right: -60px;font-size: 0;border: 1px solid #1F3066;border-radius: 6px;top: 50%;}
+   .latest_section-alumi .slick-prev {background-color: #fff;position: absolute;background-repeat: no-repeat;height: 48px;width: 48px;background-image: url(../images/leftarrow.svg);z-index: 1;background-position: center;left: -75px;font-size: 0;border: 1px solid #1F3066;border-radius: 6px;top: 50%;}
+   .latest_section-alumi .slick-next{top:27rem !important;right: -8px !important;}
+   .latest_section-alumi .slick-prev{ top: 27rem !important; left: 64% !important;}
+   .latest_section-alumi{ display: inline-block;}
+   .latest-test-alumi{height: 490px;}
+   .cotes_img{position: absolute; top: -20px; right: 10px;}
+   .latest-test-alumi .slick-track{top: 2em !important;}
+   /* NDRK Alumni end */
+
+   /* exam results form start */
+   .exam-results .results-form{margin-left: auto; margin-right: auto;}
+   .examresults-sec{width: 100%;}
+   .exam-results .schoolid-head{font-size: 18px; font-weight: 600; color: #001100;}
+   .exam-results .results-password{font-size: 18px; font-weight: 600; color: #001100;}
+   .exam-results .schoolid_text{margin-bottom: 32px;}
+   .exam-results .examresults_head{font-size: 24px; font-weight: 700; line-height: 100%; color: #1F3066; padding-bottom: 10px;}
+   .exam-results .results-para{font-size: 12px; line-height: 20px; font-weight: 400; color: #3D3A3A; padding-top: 2px; padding-bottom: 40px;width: 307px;}
+   /* exam results form end */
+
+ }
+
+@media only screen and (max-width: 426px) {
+    .NDRKAlumni_sec .slick-prev{top: 114%; left: 65%;}
+    .NDRKAlumni_sec .modal-content {padding: 16px;}
+    .NDRKAlumni_sec .modal-header .close {padding: 0px 6px 3px; right: 9px;top: 8px;}
+    .NDRKAlumni_sec .modal-body h3{font-size: 18px;line-height: 26px;}
+    .NDRKAlumni_sec .modal-body h5{display: none;}
+    .NDRKAlumni_sec .modal-body p{font-weight: 500;line-height: 26px;}
+
+    .banner-h1{font-size: 24px; padding-bottom: 24px;}
+    .banner-head{font-size: 24px; line-height: 32px;}
+    .banner-p{line-height: 22px; font-size: 14px;}
+    .banner-p br{display: none;}
+    .row-images{width:100%; height:auto;}
+    .row-h4{margin-bottom: 24px;}
+    .facilities_top{padding-top: 48px;}
+    .row-h4{font-size: 18px;}
+    .row-p{font-size: 12px; line-height: 18px; padding-top: 24px;}
+
+    /* Competitive Exams */
+    .competitive_section {margin-bottom: 48px;}
+    .exams h2{font-size: 24px;line-height: 24px;color: #fff;}
+    .competitive_section .provide_text{width: 100%;max-width: 320px;line-height: 20px;font-size: 14px;padding-top: 24px;}
+    .exam_heading{padding-bottom: 24px;font-size: 24px;line-height: 32px;}
+    .upcoming_section h2{font-size: 24px;margin-bottom: 20px;}
+    .upcoming_section h3{font-weight: 600;font-size: 12px;}
+    .upcoming_section .science_date{font-weight: 600;font-size: 12px;}
+    .upcoming_section .national{padding: 10px;margin-bottom: 12px;}
+    .upcoming_section {margin-bottom: 55px;}
+    /* Competitive Exams */
+
+    /* Students Success Stories */
+    .succes_grid{display: grid !important;}
+    /* Students Success Stories */
+
+    /* courses */
+    .foundation_section .exams h1 {padding: 39px 0 16px;font-size: 24px;line-height: 30px;}
+    .foundation_section .exams .one_two{color: #1F3066;padding: 6px 12px 7px;background: #fff;width: 110px;font-weight: 700; font-size: 16px;border-radius: 4px;}
+    .foundation_section{height: 500px;margin-bottom: 48px;}
+    .foundation_section .provide_text{padding-bottom: 32px;font-weight: 400;font-size: 14px;line-height: 18px;color: #EDEDED;max-width: 320px;}
+    .students_section .curriculum_head {display: none;}
+    .students_section .admiss_head {display: block;}
+    .students_section h2{font-size: 24px;line-height: 32px;padding-bottom: 24px;}
+    .students_section .social_card{margin-bottom: 24px;}
+    .students_section .card_image {width: 40px;}
+    .students_section h3{font-size: 16px;}
+    .students_section .admi_img {padding: 24px 0 0 16px;}
+    .students_section .card-body{padding: 16px;}
+    .students_section .card-text{font-size: 14px;}
+    .students_section {margin-bottom: 48px;}
+    .program_section {padding: 48px 0;margin-bottom: 48px;}
+    .program_section .curriculum_head {display: none;}
+    .program_section .admiss_head {display: block;font-size: 24px;padding-bottom: 24px;line-height: 32px;}     
+    .program_section h3{font-weight: 600;font-size: 16px;line-height: 24px;} 
+    .program_section .Conceptual_text .card-body{padding: 26px 18px;}
+    .program_section .Conceptual_text .col-sm-12{padding: 0 20px;margin-bottom: 25px;}
+    .respn_footbl .gallery_img {border-radius: 8px 8px 0 0;}    
+    .respn_footbl h3{font-weight: 700;font-size: 12px;background: #1F3066;line-height: 17px;padding: 8px;border-radius: 0 0 8px 8px;}  
+    .respn_footbl .sports{margin-bottom: 16px;}
+    .respn_footbl h2{color: #101010;padding: 0 0 24px 20px;line-height: 24px;font-size: 24px;}
+    .latest_section .gallery{margin-bottom: 126px;}
+     /* courses */
+     /* phot_swipe */
+     .photo_sipe_gallery .pswp__item {width: 365px;height: 250px;border-radius: 8px;}
+     .photo_sipe_gallery .photo_sipe_left {display: none;}
+     .photo_sipe_gallery .photo_sipe_right {display: none;}
+     .photo_sipe_gallery .pswp__img {top: -80%;left: 3%;width: 342px !important;height: 170px !important;border-radius: 4px;}
+     .photo_sipe_gallery .photo_close_btn {right: 10px;top: 27px;}
+    
+     /* phot_swipe */
+ }
+
+@media only screen and (max-width: 426px) {
+    .about_us{display: none;}
+    .nd-team-member,
+    .nd-thumbnial-card {margin-top: 0;margin-bottom: 20px;}
+    .about_us_content{ padding: 48px 20px 96px !important;}
+    .about_us_respv{display: block;margin-bottom: 0 !important;}
+    .about_us_respv .card{width: 100%;max-width: 264px;margin-right: 16px;}
+    .header_section .navbar-expand-lg .navbar-nav .nav-link[aria-expanded="true"] {color: #fff;}
+    .sticky_section .modal_button{display: grid;}
+
+    /* footer */
+    .footer .academics_text{display: flex;border-bottom: 0.5px solid #BFBFBF;}
+    .footer .alumni_text{margin-left: 80px;padding-bottom: 25px;}
+    .footer .cks_text{display: none;}
+    .footer .mobile_text{border-top: 0.5px solid #BFBFBF;}
+    .footer .office_text{padding: 24px 16px;}
+    .footer .contact_text{display: flex;align-items: center;}
+    .footer .contact_texts{display: flex;align-items: center;}
+    .footer .apply_btn{width: 100%;margin-bottom: 30px;margin-left: 0;}
+    .footer .ft_logo{margin-bottom: 26px;}
+    /* footer */
+
+    /* home */
+    .home_section .banner_image{object-fit: cover;height: 500px;}
+    .home_section .welcome_text{font-weight: 400;font-size: 16px;line-height: 20px;}
+    .home_section .banner_heading{font-size: 24px;line-height: 30px;max-width: 320px;padding: 16px 0 32px;}
+    .home_section .banner_sec {bottom: 16%;}
+    /* .latest_section .slick-list{padding: 0 !important;} */
+    .latest_section .slick-next {right: 11px;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px;}
+    .latest_section .slick-prev {left: 77%;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px;}
+    /* .latest_section .card {width: 264px !important;padding: 5px;} */
+    .latest_section .latest_card1 {height: 305px;width: 100%;max-width: 266px;border-radius: 8px;}
+    .latest_section .latest_card{height: 305px;width: 100%;max-width: 266px;border-radius: 8px;}
+    .latest_section .latest_card2{height: 305px;width: 100%;max-width: 266px;border-radius: 8px;}
+    .latest_section .latest_heading {font-weight: 700;font-size: 24px;line-height: 32px;padding-bottom: 28px;}
+    .home_section {margin-bottom: 48px;}
+    .latest_section h3{font-weight: 700;font-size: 18px;line-height: 18px;}
+    .latest_section h6{font-weight: 500 !important;font-size: 12px !important;line-height: 16px !important;}
+    .latest_section .click{display: block;display: flex;align-items: center;cursor: pointer;}
+    .latest_section .click p{padding-right: 9px;font-weight: 400;font-size: 14px;line-height: 18px;color: #F8C84F;}
+    .getin_section {padding: 30px 0;}
+    .admission_section .admission_heading {padding: 40px 0 24px;}
+    .admission_section .card-title{padding: 16px 0 16px;font-size: 16px;line-height: 26px;}
+    .admission_section .card-text{padding-bottom: 16px;font-size: 14px;line-height: 26px;}
+    .admission_section .card {padding: 24px 16px;margin-bottom: 34px;}
+    .brochure_download{display: grid;}
+    .deadline_section h3{display: grid;}
+    .download{margin-right: 0;margin-bottom: 25px;}
+    .dead_text{font-weight: 500;font-size: 24px;line-height: 28px;padding-bottom: 12px;}
+    .deadline_section h3{font-weight: 700;}
+    .deadline_section{padding: 20px 34px;border-radius: 8px;margin-top: 48px;margin-bottom: 48px;}
+    .alumni_section h2{display: none;}
+    .alumni_section .storiea_text{display: block;font-style: normal;font-weight: 700;font-size: 24px;line-height: 36px;color: #101010;width: 100%;max-width: 300px; }
+    .alumni_section h5{font-size: 16px;line-height: 26px;color: #737373;padding: 16px 0 0px;}
+    .alumni_section .grade{padding: 24px 20px;}
+    .alumni_section .read_blogs{margin-top: 24px;}
+    .alumni_section {margin-bottom: 48px;}
+    .subscribe_section{padding: 45px 20px;}
+    .subscribe_section p{width: 100%;max-width: 270px;margin: 0 auto;padding: 7px 0 26px;}
+    .subscribe_section .subscribe_form{display: grid;}
+    .subscribe_section .form-control{width: 320px !important;margin-right: 0;margin-bottom: 24px;}
+    .subscribe_section .yellow-btn{margin: 0 auto;}
+    .subscribe_section {margin-bottom: 48px;}
+    .map_section {margin-bottom: 49px;}
+    .blue-btn:hover {background-color: #fff;color: #1F3066;border: 1px solid #1F3066;}
+    .latest_section {padding: 0;}
+    .latest_section {padding: 0 !important;}
+    .footer .apply_btn{font-size: 16px !important;padding: 11px 32px !important;margin-left: 0px !important;}
+    .img-blog-fluid img{width: 15px;}
+    .otherstudents-section .card_calender{padding: 0;}
+    .change{display: block;}
+    .sucees_modal .modal { top: 85px !important;}
+    .sucess_section .modal-header .close{display: none;}
+    .sucess_section .suces{display: none;}
+    .sucess_section .suces_res{display: block;margin: 0 auto;}
+    .sucess_section .next-sub {display: none;}
+    .sucess_section .next-subs {display: block;}
+    .download img{display: block;}
+    .next-sub img{display: block;}
+    .sticky_section .form-control{font-size: 14px;}
+    .blue-btn:hover:after{display: none;}
+    .subscribe_section .help-block {font-size: 13px;color: red;position: absolute;left: 4px; top: 49px;}
+    /* home */
+
+    /* Students Success Stories */
+    .student_section h2 {padding: 32px 0 24px 0;font-size: 24px;line-height: 32px;}
+    .succes_grid h6{font-weight: 700 !important;font-size: 18px !important;color: #1F3066 !important;line-height: 24px !important;display: block;border-bottom: 2px solid #BFBFBF;padding-bottom: 10px;}
+    .student_section p{padding-top: 10px;}
+    .student_section h3{display: none;}
+    .student_section .latest_section .slick-prev{top: 104%;}
+    .student_section .latest_section .slick-next{top: 104%;}
+    /* Students Success Stories */
+    /* courses */
+    .latest_section .gallery .slick-initialized .slick-slide {margin-right: 0px;}
+    .respn_footbl {display: block;margin-bottom: 32px;}
+    /* .latest_section .gallery{display: none;} */
+    .res_late{margin: 0;}
+    /* courses */
+    /* login */
+    .logo_login{display: none;}
+    .log_baground{display: none;}
+    .login_section .welcome{position: relative;left: 0;padding: 40px 20px;}
+    .login_section .welcome_background{background-image: url("../images//login_responsive.png");width: 100%;background-size: cover;padding: 83px 0 0 20px;display: block;}
+    .welcome_background .welcome_cks{color: #fff;padding: 24px 0 24px;width: 100%; max-width: 305px;}
+    .login_section .col-md-6{padding-right: 0;}
+    .login_section .welcome h3 {font-weight: 500;font-size: 14px;line-height: 20px;color: #3D3A3A;}
+    .login_section h1{font-weight: 700;font-size: 24px;color: #1F3066;line-height: 24px;}
+    .login_section .school_text{font-size: 18px;line-height: 12px;}
+    .sticky_section .modal-header .close {padding: 1px 11px 7px;position: absolute;right: 35px;top: 16px;opacity: inherit;color: #101010;background-color: #fff;box-shadow: none;}
+    .login_section .login_btn{text-align: center;}
+    /* login */
+        /* alumi */
+    .latest_section-alumi .latest_card{background:#F6F7F9;height: 370px;width: 100%;}
+    .latest_section-alumi .latest_card1{background:#F6F7F9;height: 370px;width: 100%;}
+    /* alumi */
+
+    /* photo_sipe_gallery  */
+    .photo_sipe_gallery figure {width: 50%;}
+    .photo_sipe_gallery .card-body{padding: 8px;margin-bottom: 24px;}
+    .photo_sipe_gallery p {font-size: 12px;line-height: 18px;}
+    .photo_sipe_gallery h2{padding: 48px 0 24px;}
+    /* photo_sipe_gallery  */
+    .section-blogs .card_blogdetails{    margin: 0px 12px 0px 12px;}
+     
+    /* resposnive board memebers css */
+    .about-card-person h4{font-weight: 700;font-size: 16px;line-height: 24px;}
+    .about-card-person h5{font-weight: 500;font-size: 14px;color: #101010;line-height: 24px}
+    .about-card-person p{font-weight: 400;font-size: 12px; line-height: 16px;color: #737373;width: 100%;max-width: 205px;}
+    .latest_section-alumi .card{border: 0.5px solid #E8E8E8 !important;border-radius: 8px;}
+    .latest_section-alumis .card{border: 0.5px solid #E8E8E8 !important;border-radius: 8px; }
+    .latest_section-alumis{padding-bottom: 108px;}
+}
+
+
+
+@media only screen and (max-width: 376px) {
+    .latest_section .slick-prev {left: 74% !important;}
+    /* .latest_section .card {width: 259px !important;} */
+    .otherstudents-section .slick-prev {left: 70% !important}
+    .NDRKAlumni_sec .slick-prev{top: 114%;left: 65%; }
+    .about_us_respv .card{max-width: 227px;}
+    /* photo_swipe */
+    .photo_sipe_gallery .pswp__item {width: 320px;}
+    .photo_sipe_gallery .pswp__img {top: -87%;left: 5%;width: 288px !important;}
+}
+
+@media only screen and (max-width: 320px) {
+    .latest_section .slick-prev {
+        left: 68%;
+    }
+    .latest_section-alumi .latest_card{height: 450px !important; width: 100%;}
+    .latest-test-alumi{height: 570px;}
+    .latest_section-alumi .slick-prev{top: 33rem !important;}
+    .latest_section-alumi .slick-next{top: 33rem !important;}
+}
+
+    
+
+
+
+/* facilities */
+/* Responsive for ipad */
+@media (min-width: 810px) and (max-width: 835px){
+    .facilities .row-images{width: 100%;}
+    .facilities .facilities_top{align-items: center;}
+    .otherstudents-section .card_pen{width: 16px; height: 16px;}
+    .otherstudents-section .card_calender{width: 16px; height: 16px;}
+    .otherstudents-section .img_sec{width: 100%;}
+    .otherstudents-section .card_calender{padding: 0px;}
+    .otherstudents-section .slick-next{right: 11px;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .otherstudents-section .slick-prev {left: 85%;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .img_sec img{width: 100%;}
+}
+@media (device-width:768px){
+    .facilities .row-images{width: 100%;}
+    .facilities .facilities_top{align-items: center;}
+    .otherstudents-section .card_pen{width: 16px; height: 16px;}
+    .otherstudents-section .card_calender{width: 16px; height: 16px;}
+    .otherstudents-section .card_calender{padding: 0px;}
+    .admissions-section .appli_sec{align-items: center;}
+    .deadline_faq {width: 156px; height: 100%; right: 0px; }
+    .deadlines_faq { width: 100%; height: 100%;left: -60px;}
+    .exam-results .results-para{font-size: 16px; line-height: 26px; color: #101010; font-weight: 500; padding-top: 40px; width: 100%;}
+    .exam-results .examresulta-img{width: auto;}
+    .exam-results .examresults_head{ color: #1F3066; padding-bottom: 60px; padding-top: 64px;}
+    .examresults-sec{width: auto;}
+     .img_sec{display: flex; flex-direction: column;}
+    .blog-details-section .card_body_sec{background: #FDF2D6;width: 100%;height: 260px; border-radius: 8px;}
+    .right-part{height: 100%;} 
+    /* board members responsive css */
+    .latest_heading-alumis {
+        font-size: 24px;
+        line-height: 40px;
+        color: #101010;
+        font-weight: 700;
+        padding-top: 48px;
+    }
+
+    .board-members-res .latest-test-alumi {
+        height: 100% !important;
+    }
+
+    .about-card-person h4 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-card-person h5 {
+        font-weight: 500;
+        font-size: 14px;
+        color: #101010;
+        line-height: 24px;
+    }
+    .about-card-person p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #737373;
+        width: 100%;
+        max-width: 205px;
+    }
+}
+/* facilities */
+
+@media (min-width:768px) and (max-width:1024px) {
+    /* img{width: 100%;} */
+    .activities_images{width: 100% !important;}
+    .student_activities_1 .student-acts{align-items: center;}
+    .virtual_section .banner_virtual{background-size: 100%; height: 330px;}
+    .student_activities_1 .row-para{padding-top: 0; padding-bottom: 0;}
+    .student_activities_1 .row-heading{padding-bottom: 10px;}
+    .gallery_sec_1 .gallery_head{padding-top: 120px; align-items: center;}
+   .alumni_sec .date_1{padding-top: 15px;}
+   .alumni_sec .news_head{padding-top: 0;}
+   .alumni_sec .news_img{width: 100% !important; height: 100%;}
+   .alumni_sec .news_head br{ display: none;}
+   .otherstudents-section .media_icons{margin-left: 0 !important; padding-left: 20px;}
+   .img_sec img{width: 100%;}
+   .otherstudents-section .slick-next{right: 11px;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .otherstudents-section .slick-prev {left: 87%;top: 111%;border: 1px solid #1F3066;border-radius: 6px;height: 36px;width: 36px; }
+    .admissions-section .admi-application-image{width: 100%;}
+    .deadline_faq { height: 100%; right: 0; top: 0; background-repeat: no-repeat; left: 77%; width: -webkit-fill-available;}
+    .NDRKAlumni_sec .slick-next { right: 35px;top: 114%;}
+    .NDRKAlumni_sec .slick-prev { left: 80%; top: 114%;}
+    .latest_heading-alumi{font-size: 24px; line-height: 40px; color: #101010;font-weight: 700; padding-bottom: 24px;}
+    /* .right-part{height: 100%; display: flex; flex-direction: column;}
+    .card_body_sec{background: #FDF2D6;width: 100%;height: 100%; border-radius: 8px;} */
+}
